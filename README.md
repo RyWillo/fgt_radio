@@ -13,6 +13,7 @@ I won't be pushing to the web directly often, if at all.
 The php code in the web directory is very bare bones, to use it you will need to setup mariadb(mysql), php, and apache on your own.
 I'll include the create table statements below:
 
+```
 CREATE TABLE `admins` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `username` text,
@@ -44,3 +45,4 @@ CREATE TABLE `songs` (
   `uploader` int(10) unsigned NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB
+```
